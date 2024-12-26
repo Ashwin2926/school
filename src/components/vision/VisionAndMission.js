@@ -9,10 +9,7 @@ const VisionAndMission = () => {
     <section className="vision-mission">
       <div className="container">
         <div className="row align-items-center">
-          {/* Vision Section */}
-          <div className="col-md-6">
-            <img src={visionImage} alt="Vision" className="img-fluid rounded shadow" />
-          </div>
+         
           <div className="col-md-6">
             <div className="text-container">
               <h2 className="section-title">Our Vision</h2>
@@ -23,6 +20,10 @@ const VisionAndMission = () => {
                 We leverage modern technologies like <strong>AI-driven learning platforms</strong> and <strong>interactive classrooms</strong> to stay ahead in education innovation.
               </p>
             </div>
+          </div>
+           {/* Vision Section */}
+           <div className="col-md-6">
+            <img src={visionImage} alt="Vision" className="img-fluid rounded shadow" />
           </div>
         </div>
         </div>

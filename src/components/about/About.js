@@ -7,11 +7,7 @@ const AboutUs = () => {
     <section className="about-us">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-6">
-            <div className="image-wrapper">
-              <img src={aboutImage} alt="About EduKidz" className="img-fluid rounded" />
-            </div>
-          </div>
+         
           <div className="col-md-6">
             <div className="text-wrapper">
               <h2 className="section-title">About SLI</h2>
@@ -25,6 +21,11 @@ const AboutUs = () => {
               <p>
                 Our programs are designed to foster curiosity, critical thinking, and lifelong learning, ensuring every child’s unique potential is realized.
               </p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="image-wrapper">
+              <img src={aboutImage} alt="About EduKidz" className="img-fluid rounded" />
             </div>
           </div>
         </div>

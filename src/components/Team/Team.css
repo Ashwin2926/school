@@ -1,0 +1,111 @@
+/* General Styling */
+.team-section {
+    background-color: #f4f4f9;
+    padding: 4rem 1rem;
+  }
+  
+  .team-section h2 {
+    font-size: 2.5rem;
+    color: #4caf50;
+  }
+  
+  .team-section p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Instructors Carousel */
+  .instructors-carousel {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+  }
+  
+  .instructors-carousel::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .instructors-carousel::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .instructor-card {
+    flex: 0 0 250px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .instructor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .instructor-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #4caf50;
+    margin-bottom: 1rem;
+  }
+  
+  .card-content {
+    padding-top: 1rem;
+  }
+  
+  .instructor-name {
+    font-size: 1.2rem;
+    color: #4caf50;
+  }
+  
+  .instructor-subject {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .instructor-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.8rem;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 0px 0px 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .contact-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #388e3c;
+  }
+  

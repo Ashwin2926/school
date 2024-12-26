@@ -1,0 +1,109 @@
+/* Enrollment Process Section */
+.enrollment-process {
+    padding: 4rem 1rem;
+    background: linear-gradient(to bottom right, #f4f4f9, #e8f5e9);
+  }
+  
+  .enrollment-process .section-title {
+    font-size: 2.5rem;
+    color: #4caf50;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .enrollment-process .section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #4caf50;
+    margin: 0.5rem auto 0;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 2rem;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: #4caf50;
+  }
+  
+  .timeline-step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .timeline-step .timeline-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4caf50;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timeline-step .timeline-content {
+    margin-left: 2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .timeline-step .timeline-content h5 {
+    color: #4caf50;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-step .timeline-content p {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .timeline {
+      padding-left: 0;
+    }
+  
+    .timeline::before {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .timeline-step {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .timeline-step .timeline-icon {
+      margin-bottom: 1rem;
+    }
+  
+    .timeline-step .timeline-content {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  

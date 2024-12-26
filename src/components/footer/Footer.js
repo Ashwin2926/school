@@ -5,55 +5,60 @@ const Footer = () => {
   return (
     <footer class="footer">
   <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <h3>Shepherds Learning Institute</h3>
-        <p>
-          Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et
-          diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores.
-        </p>
-      </div>
-     
+    <div class="footer-about">
+      <h3>SLI Education</h3>
+      <p>
+        Welcome to SLI Education, a place where we nurture bright futures through comprehensive and engaging learning experiences. 
+        Our institution is committed to academic excellence, offering courses designed to inspire creativity, critical thinking, 
+        and a love for lifelong learning.
+      </p>
     </div>
-    <div class="footer-links">
+
+    <div class="footer-sections">
+
       <div class="footer-column">
         <h4>Get In Touch</h4>
-        <p>123 Street, New York, USA</p>
-        <p>+012 345 67890</p>
-        <p>info@example.com</p>
+        <p><i class="fa fa-map-marker"></i> 123 Learning Street, Education City</p>
+        <p><i class="fa fa-phone"></i> +1 (234) 567-890</p>
+        <p><i class="fa fa-envelope"></i> contact@sli.edu</p>
         <div class="footer-socials">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
         </div>
       </div>
-      <div class="footer-column">
+
+    
+      {/* <div class="footer-column">
         <h4>Our Courses</h4>
         <ul>
-          <li><a href="#">Web Design</a></li>
-          <li><a href="#">Apps Design</a></li>
-          <li><a href="#">Marketing</a></li>
-          <li><a href="#">Research</a></li>
-          <li><a href="#">SEO</a></li>
+          <li><a href="#web-design">Web Design</a></li>
+          <li><a href="#apps-design">App Development</a></li>
+          <li><a href="#marketing">Digital Marketing</a></li>
+          <li><a href="#research">Educational Research</a></li>
+          <li><a href="#seo">SEO Strategies</a></li>
         </ul>
-      </div>
+      </div> */}
+
+
       <div class="footer-column">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & Condition</a></li>
-          <li><a href="#">Regular FAQs</a></li>
-          <li><a href="#">Help & Support</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#privacy-policy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms & Conditions</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#help-support">Help & Support</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>Copyright © SLI All Rights Reserved.</p>
-      <p>Designed by AN</p>
-    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © 2024 SLI Education. All Rights Reserved.</p>
   </div>
 </footer>
+
 
   );
 };
